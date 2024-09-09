@@ -106,3 +106,16 @@ tr>td {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
+
+@media (max-width: 450px) {
+  #main-container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  #image {
+    width:100dvw;
+    margin: -40px -40px 0px -40px;
+    border-radius: 0px;
+  }
+}
